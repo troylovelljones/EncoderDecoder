@@ -5,6 +5,9 @@ Present working directory
 Use this command any time you are unsure where you are currently in your file structure. 
 pwd stands for Present Working Directory. For Windows,you may either use pwd or cd.
 
+create new files
+`touch` (windows type nul >)
+
 List files
 `ls` (`dir` windows)
 Use the ls command to see all the directories and files that are in your current directory. 

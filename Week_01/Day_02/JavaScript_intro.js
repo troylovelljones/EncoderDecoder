@@ -1,9 +1,9 @@
 /*  Lexical Structure 
-        describes how the language rules */
+        describes the language rules */
 
 /*  Case sensitivity, spaces, and line breaks
         -language keywords, variables, function names and other identifiers must be consistent
-        -most part JS ignores whitespace /*
+        -most part JS ignores whitespace /* 
 
     //comments
         // and long comments /* any code inside is ignored */ 
@@ -16,7 +16,7 @@
         // {}
 
 /*  Identifiers and reserved words
-        An identifier is simply a name and JS as reserved names like if, while, for */
+        An identifier is simply a name and JS as reserved names like if, while, for */    
 
 /*  Unicode
         -JavaScript programs are written using the Unicode character set, and you can use any Unicode characters 
@@ -30,35 +30,46 @@
 /*  Optional semicolons
         -Like many programming languages, JavaScript uses the semicolon (;) to separate statements
         - you should as well as some unintented things can happen */
-        return
-        true;  //-> return; true;
+        // return
+        // true;  //-> return; true;
 
 /*  Types Values And variables
     - Js can be divided into two categories PRIMITIVE and OBJECT Types
     - booleans, strings, numbers, null, undefined IMMUTABLE primitive types
     - arrays, objects, functions MUTABLE object types */
 
+
 //numbers
 //  declaration    initializing    assigning
+    
     let            number          =12
-    const number2 = 11
-    // console.log(11+3); //add
-    // console.log(11-3); //subtract
-    // console.log(11*3); //multiply
-    // console.log(11/3); //divide
-    // console.log(11%3); //divide
-    // console.log(11**3); //divide
-    // console.log(-Infinity === Infinity);
+    const NUMBER2 = 12
+    //URUNARY OPERATORS + - / *
+    console.log(11+3); //add
+    console.log(11-3); //subtract
+    console.log(11*3); //multiply
+    console.log(11/3); //divide
+    console.log(11%3); //modulo ( even odds, rotate )
+    console.log(11**3); //exponents
+    console.log(-Infinity === Infinity);
+    // = assigning
+    // == loose comparison
+    // === strict comparison
     
 //Strings
-    console.log(`the number is ${number}`);
+    console.log(`the number is ${number}`); //use the backticks ${variable name}
     ""
     ''
     // let x = "feas"
     // x.
 //booleans
     // true false
-    if (true) {
+    // conditionals 
+    //
+    // if (expression) {
+    //     statement
+    // }
+    if (0) {
         console.log("that was true");
     }
     //truthy and falsy
@@ -67,22 +78,23 @@
 
 //null and undefined
     //- null value that is usually used to indicate the absence of a value
+    //- undefined doesnt exist
     
 //OBJECT TYPES
     //Arrays
         let b = [12, "the", true, [0,12,12], {p: [12,0]}]
-        //0   1     2     ......
+            //   0   1     2     ......
         
-    //Objects
+    // //Objects
         {
             prop: []
         }
-    //functions
-        //set of an instructions
-        function greet(name) {
-            console.log(`hello ${name}`);
-        }
-        greet("Duke")
+    // //functions
+    //     //set of an instructions
+    //     function greet(name) {
+    //         console.log(`hello ${name}`);
+    //     }
+    //     greet("Duke")
 
 //expressions and statements
     //Expressions are evaluated to produce a value, but statements are executed to make something happen.
