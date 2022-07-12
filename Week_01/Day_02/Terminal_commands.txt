@@ -26,7 +26,7 @@ Whatever argument you pass into this command will be the name of your new file. 
 the directory, you could run 'cd new_folder_name' to enter into that directory
 
 Delete an empty directory(folder)
-`rm "directory_name"`
+`rm "files_name"`
 `rmdir "directory_name"`
 
 Delete a non-empty directory(folder)
@@ -48,7 +48,8 @@ same or different name.
 2.Navigate to your Desktop
 3.Create a new directory, call it 'test'
 4.Make files called index.html, styles.css, scripts.js inside the test directory
-5.Make a copy of index.html and call it index_2.html
+5.BONUS (look this up) Make a copy of index.html and call it index_2.html
 6.Navigate back to your desktop and make another directory, call it 'destination'
 7.BONUS Move the index_2.html file to the 'destination' directory
 8.Remove/delete the test and destination directory 
+ALL OF THE COMMANDS WRITTEN ON A TEXT FILE
